@@ -181,7 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+			shellScript = "# shell script goes here\n\n/bin/cp -f \"${PROJECT_DIR}/${MODULE_NAME}-${MODULE_PLATFORM}-${MODULE_VERSION}.zip\" \"${TEST_APP}\"\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\n\nexit $?\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
