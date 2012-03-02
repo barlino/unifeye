@@ -4,10 +4,10 @@
 #
 version: 0.1
 apiversion: 2
-description: My module
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2012 by Your Company
+description: Unifeye TiModule
+author: Barlino Yeh
+license: empty
+copyright: Copyright (c) 2012 by Otiga
 
 
 # these should not be edited
@@ -15,4 +15,4 @@ name: unifeye
 moduleid: com.otiga.unifeye
 guid: 63447881-8090-469b-94d0-fa55b0d723cc
 platform: iphone
-minsdk: 1.8.1
+minsdk: 1.8.2
