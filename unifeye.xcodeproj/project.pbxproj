@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -22,12 +22,31 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* ComOtigaUnifeyeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComOtigaUnifeyeModule.h */; };
-		24DD6CFA1134B3F500162E58 /* ComOtigaUnifeyeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComOtigaUnifeyeModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* ComOtigaUnifeye_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComOtigaUnifeye_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D963D16F1500C9C300EA96CC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D963D16E1500C9C300EA96CC /* CoreMotion.framework */; };
+		D97B3D8514FF6D5A00747A39 /* UnifeyeSDKMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97B3D8414FF6D5A00747A39 /* UnifeyeSDKMobile.framework */; };
+		D9A0016914FE2106005D0D77 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A0016714FE2106005D0D77 /* EAGLView.h */; };
+		D9A0016A14FE2106005D0D77 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9A0016814FE2106005D0D77 /* EAGLView.mm */; };
+		D9EDBC8014F78BC2003B341B /* ComOtigaUnifeyeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EDBC7614F78BC1003B341B /* ComOtigaUnifeyeModule.h */; };
+		D9EDBC8114F78BC2003B341B /* ComOtigaUnifeyeModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EDBC7714F78BC2003B341B /* ComOtigaUnifeyeModule.mm */; };
+		D9EDBC8214F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EDBC7814F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.h */; };
+		D9EDBC8314F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EDBC7914F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.mm */; };
+		D9EDBC8814F78EB8003B341B /* ComOtigaUnifeyeHelloView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EDBC8614F78EB8003B341B /* ComOtigaUnifeyeHelloView.h */; };
+		D9EDBC8914F78EB8003B341B /* ComOtigaUnifeyeHelloView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EDBC8714F78EB8003B341B /* ComOtigaUnifeyeHelloView.mm */; };
+		D9EDBC9614F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D9EDBC9414F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.h */; };
+		D9EDBC9914F797E0003B341B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBC9814F797E0003B341B /* libxml2.dylib */; };
+		D9EDBC9B14F797F2003B341B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBC9A14F797F2003B341B /* UIKit.framework */; };
+		D9EDBC9D14F797FD003B341B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBC9C14F797FD003B341B /* OpenGLES.framework */; };
+		D9EDBC9F14F79809003B341B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBC9E14F79809003B341B /* CoreGraphics.framework */; };
+		D9EDBCA114F79815003B341B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCA014F79815003B341B /* libz.dylib */; };
+		D9EDBCA314F79825003B341B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCA214F79825003B341B /* AudioToolbox.framework */; };
+		D9EDBCA514F7983E003B341B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCA414F7983E003B341B /* QuartzCore.framework */; };
+		D9EDBCA714F79848003B341B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCA614F79848003B341B /* CoreLocation.framework */; };
+		D9EDBCA914F79852003B341B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCA814F79852003B341B /* AVFoundation.framework */; };
+		D9EDBCAB14F7985B003B341B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCAA14F7985B003B341B /* CoreVideo.framework */; };
+		D9EDBCAD14F79862003B341B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDBCAC14F79862003B341B /* CoreMedia.framework */; };
+		D9EDBCB014F79930003B341B /* ComOtigaUnifeyeHelloViewProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9EDBC9514F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +60,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComOtigaUnifeyeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOtigaUnifeyeModule.h; path = Classes/ComOtigaUnifeyeModule.h; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComOtigaUnifeyeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComOtigaUnifeyeModule.m; path = Classes/ComOtigaUnifeyeModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOtigaUnifeyeModuleAssets.h; path = Classes/ComOtigaUnifeyeModuleAssets.h; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComOtigaUnifeyeModuleAssets.m; path = Classes/ComOtigaUnifeyeModuleAssets.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComOtigaUnifeye_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComOtigaUnifeye_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComOtigaUnifeye.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComOtigaUnifeye.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D963D16E1500C9C300EA96CC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D97B3D8414FF6D5A00747A39 /* UnifeyeSDKMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnifeyeSDKMobile.framework; sourceTree = "<group>"; };
+		D9A0016714FE2106005D0D77 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAGLView.h; path = Classes/EAGLView.h; sourceTree = "<group>"; };
+		D9A0016814FE2106005D0D77 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EAGLView.mm; path = Classes/EAGLView.mm; sourceTree = "<group>"; };
+		D9EDBC7614F78BC1003B341B /* ComOtigaUnifeyeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOtigaUnifeyeModule.h; path = Classes/ComOtigaUnifeyeModule.h; sourceTree = "<group>"; };
+		D9EDBC7714F78BC2003B341B /* ComOtigaUnifeyeModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComOtigaUnifeyeModule.mm; path = Classes/ComOtigaUnifeyeModule.mm; sourceTree = "<group>"; };
+		D9EDBC7814F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOtigaUnifeyeModuleAssets.h; path = Classes/ComOtigaUnifeyeModuleAssets.h; sourceTree = "<group>"; };
+		D9EDBC7914F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComOtigaUnifeyeModuleAssets.mm; path = Classes/ComOtigaUnifeyeModuleAssets.mm; sourceTree = "<group>"; };
+		D9EDBC8614F78EB8003B341B /* ComOtigaUnifeyeHelloView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComOtigaUnifeyeHelloView.h; sourceTree = "<group>"; };
+		D9EDBC8714F78EB8003B341B /* ComOtigaUnifeyeHelloView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ComOtigaUnifeyeHelloView.mm; sourceTree = "<group>"; };
+		D9EDBC9414F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComOtigaUnifeyeHelloViewProxy.h; path = unifeye.xcodeproj/../ComOtigaUnifeyeHelloViewProxy.h; sourceTree = "<group>"; };
+		D9EDBC9514F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComOtigaUnifeyeHelloViewProxy.mm; path = unifeye.xcodeproj/../ComOtigaUnifeyeHelloViewProxy.mm; sourceTree = "<group>"; };
+		D9EDBC9814F797E0003B341B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D9EDBC9A14F797F2003B341B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9EDBC9C14F797FD003B341B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D9EDBC9E14F79809003B341B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9EDBCA014F79815003B341B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D9EDBCA214F79825003B341B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D9EDBCA414F7983E003B341B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9EDBCA614F79848003B341B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D9EDBCA814F79852003B341B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D9EDBCAA14F7985B003B341B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D9EDBCAC14F79862003B341B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D963D16F1500C9C300EA96CC /* CoreMotion.framework in Frameworks */,
+				D97B3D8514FF6D5A00747A39 /* UnifeyeSDKMobile.framework in Frameworks */,
+				D9EDBCAD14F79862003B341B /* CoreMedia.framework in Frameworks */,
+				D9EDBCAB14F7985B003B341B /* CoreVideo.framework in Frameworks */,
+				D9EDBCA914F79852003B341B /* AVFoundation.framework in Frameworks */,
+				D9EDBCA514F7983E003B341B /* QuartzCore.framework in Frameworks */,
+				D9EDBCA714F79848003B341B /* CoreLocation.framework in Frameworks */,
+				D9EDBCA314F79825003B341B /* AudioToolbox.framework in Frameworks */,
+				D9EDBCA114F79815003B341B /* libz.dylib in Frameworks */,
+				D9EDBC9F14F79809003B341B /* CoreGraphics.framework in Frameworks */,
+				D9EDBC9D14F797FD003B341B /* OpenGLES.framework in Frameworks */,
+				D9EDBC9B14F797F2003B341B /* UIKit.framework in Frameworks */,
+				D9EDBC9914F797E0003B341B /* libxml2.dylib in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +125,8 @@
 		0867D691FE84028FC02AAC07 /* unifeye */ = {
 			isa = PBXGroup;
 			children = (
+				D963D16E1500C9C300EA96CC /* CoreMotion.framework */,
+				D97B3D8414FF6D5A00747A39 /* UnifeyeSDKMobile.framework */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -85,6 +138,17 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9EDBCAC14F79862003B341B /* CoreMedia.framework */,
+				D9EDBCAA14F7985B003B341B /* CoreVideo.framework */,
+				D9EDBCA814F79852003B341B /* AVFoundation.framework */,
+				D9EDBCA614F79848003B341B /* CoreLocation.framework */,
+				D9EDBCA414F7983E003B341B /* QuartzCore.framework */,
+				D9EDBCA214F79825003B341B /* AudioToolbox.framework */,
+				D9EDBCA014F79815003B341B /* libz.dylib */,
+				D9EDBC9E14F79809003B341B /* CoreGraphics.framework */,
+				D9EDBC9C14F797FD003B341B /* OpenGLES.framework */,
+				D9EDBC9A14F797F2003B341B /* UIKit.framework */,
+				D9EDBC9814F797E0003B341B /* libxml2.dylib */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -93,10 +157,16 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DE9E0F11C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.m */,
-				24DD6CF71134B3F500162E58 /* ComOtigaUnifeyeModule.h */,
-				24DD6CF81134B3F500162E58 /* ComOtigaUnifeyeModule.m */,
+				D9A0016714FE2106005D0D77 /* EAGLView.h */,
+				D9A0016814FE2106005D0D77 /* EAGLView.mm */,
+				D9EDBC8614F78EB8003B341B /* ComOtigaUnifeyeHelloView.h */,
+				D9EDBC8714F78EB8003B341B /* ComOtigaUnifeyeHelloView.mm */,
+				D9EDBC9414F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.h */,
+				D9EDBC9514F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.mm */,
+				D9EDBC7614F78BC1003B341B /* ComOtigaUnifeyeModule.h */,
+				D9EDBC7714F78BC2003B341B /* ComOtigaUnifeyeModule.mm */,
+				D9EDBC7814F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.h */,
+				D9EDBC7914F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -118,8 +188,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* ComOtigaUnifeye_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* ComOtigaUnifeyeModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.h in Headers */,
+				D9EDBC8014F78BC2003B341B /* ComOtigaUnifeyeModule.h in Headers */,
+				D9EDBC8214F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.h in Headers */,
+				D9EDBC8814F78EB8003B341B /* ComOtigaUnifeyeHelloView.h in Headers */,
+				D9EDBC9614F795C6003B341B /* ComOtigaUnifeyeHelloViewProxy.h in Headers */,
+				D9A0016914FE2106005D0D77 /* EAGLView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +221,11 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "unifeye" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -172,7 +248,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		24416B8011C4CA220047AFDD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -190,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* ComOtigaUnifeyeModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* ComOtigaUnifeyeModuleAssets.m in Sources */,
+				D9EDBCB014F79930003B341B /* ComOtigaUnifeyeHelloViewProxy.mm in Sources */,
+				D9EDBC8114F78BC2003B341B /* ComOtigaUnifeyeModule.mm in Sources */,
+				D9EDBC8314F78BC2003B341B /* ComOtigaUnifeyeModuleAssets.mm in Sources */,
+				D9EDBC8914F78EB8003B341B /* ComOtigaUnifeyeHelloView.mm in Sources */,
+				D9A0016A14FE2106005D0D77 /* EAGLView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,18 +289,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/ComOtigaUnifeye.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"/**",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -237,7 +315,14 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"/**",
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+				);
 				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
@@ -248,7 +333,8 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				VALID_ARCHS = "i386 armv7";
 			};
 			name = Debug;
 		};
@@ -256,17 +342,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
 				"ARCHS[sdk=iphonesimulator*]" = i386;
 				DSTROOT = /tmp/ComOtigaUnifeye.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"/**",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -282,14 +367,22 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"/**",
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ComOtigaUnifeye;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
+				VALID_ARCHS = "i386 armv7";
 			};
 			name = Release;
 		};
@@ -384,6 +477,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -395,9 +492,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "Build & test";
 				ZERO_LINK = NO;
 			};
