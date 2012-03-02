@@ -6,8 +6,8 @@
 
 // open a single window
 var window = Ti.UI.createWindow({
-	backgroundColor:'white'
-});
+                                backgroundColor:'white'
+                                });
 var label = Ti.UI.createLabel();
 window.add(label);
 window.open();
@@ -16,25 +16,12 @@ window.open();
 var unifeye = require('com.otiga.unifeye');
 Ti.API.info("module is => " + unifeye);
 
-label.text = unifeye.example();
+var hi = unifeye.createHelloView({
+'name': 'Barlino Yeh'
+});
+hi.open();
 
-Ti.API.info("module exampleProp is => " + unifeye.exampleProp);
-alert(unifeye.exampleProp);
-unifeye.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = unifeye.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	window.add(proxy);
-}
+label.text = unifeye;
+Ti.API.info("Titanium Initialize");
+window.add(hi);
 
